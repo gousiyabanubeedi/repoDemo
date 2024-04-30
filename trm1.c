@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<ctype.h>
-#define SIZE 50
+#define SIZE 30
 struct stack{
     char stack[SIZE]; 
     int top;
