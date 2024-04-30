@@ -5,7 +5,7 @@ struct stack{
     char stack[SIZE]; 
     int top;
 };
-void push (struct stack*s ,char x){
+//void push (struct stack*s ,char x){
     s->top++;
     s->stack[s->top]=x;
 }
